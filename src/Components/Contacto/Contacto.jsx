@@ -22,7 +22,7 @@ const Contacto = () => {
           aspirantes27@bomberosrosario.com.ar
         </h3>
         <h2>Dirección</h2>
-        {/* <iframe
+        <iframe
           title="maps"
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1669.177065318863!2d-64.43668876449388!3d-33.20481107015381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d1f92bc9be3ddd%3A0x4dd7fe0f482d7610!2sBomberos%20Voluntarios%20Santa%20Catalina!5e0!3m2!1ses-419!2sar!4v1677133095538!5m2!1ses-419!2sar"
           width="600"
@@ -30,7 +30,7 @@ const Contacto = () => {
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
-        ></iframe> */}
+        ></iframe>
         <h2>Números telefónicos</h2>
         <h3>Tel: (0341) 430 8888</h3>
       </div>
