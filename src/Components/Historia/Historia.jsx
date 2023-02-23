@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./Historia.module.css";
 
 const Historia = () => {
   return (
-    <div>
+    <div className={styles.div_contenedor} id="Historias">
       <h2>Nuestra historia</h2>
       <p>
         Hasta el año 1880 en Rosario, los incendios que la asolaron habían sido

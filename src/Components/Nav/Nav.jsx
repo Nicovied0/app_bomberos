@@ -2,29 +2,28 @@ import React from "react";
 import logo from "../../Assets/Logo.svg";
 
 import styles from "./Nav.module.css";
-import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className={styles.Div_Contonador}>
+    <div className={styles.Div_Contonador} id="Nav">
       <ul className={styles.ul}>
-        <Link to="/">
+        <a href="/">
           <li className={styles.li}>
             <img alt="Logo_Nav" className={styles.Img_logo} src={logo}></img>
           </li>
-        </Link>
-        <Link to="/">
-          <li className={styles.li}>Home</li>
-        </Link>
-        <Link to="/noticias">
+        </a>
+        <a href="#Home">
+          <li className={styles.li}>Inicio</li>
+        </a>
+        <a href="#Noticias">
           <li className={styles.li}>Noticias</li>
-        </Link>
-        <Link to="/historias">
+        </a>
+        <a href="#Historias">
           <li className={styles.li}>Historia</li>
-        </Link>
-        <Link to="/contacto">
+        </a>
+        <a href="#Contacto">
           <li className={styles.li}>Contacto</li>
-        </Link>
+        </a>
         <div className={styles.div2}>
           <a
             href="https://www.facebook.com/bomberosvoluntarios.stacatalinaholmberg"
