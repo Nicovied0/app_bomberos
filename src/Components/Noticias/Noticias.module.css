@@ -1,0 +1,19 @@
+.Noticias {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.Noticias2 {
+  padding: 1rem;
+  background: white;
+  margin: 1rem 0;
+  border-radius: 1.5rem;
+
+}
+
+.Noticias2:hover {
+  transform: scale(1.03);
+}

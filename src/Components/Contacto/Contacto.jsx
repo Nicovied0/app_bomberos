@@ -1,8 +1,9 @@
 import React from "react";
+import styles from "./Contacto.module.css";
 
 const Contacto = () => {
   return (
-    <div id="Contacto">
+    <div id="Contacto" className={styles.div}>
       <div>
         <h2>Planilla de Contacto</h2>
         <form>
