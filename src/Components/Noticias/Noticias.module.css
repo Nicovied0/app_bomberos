@@ -1,5 +1,5 @@
 .Noticias {
-  padding: 3rem;
+  padding: 2rem 3rem 3rem 3rem;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -16,4 +16,12 @@
 
 .Noticias2:hover {
   transform: scale(1.03);
+}
+
+.titulo {
+  margin: 5rem 0 0 0;
+  display: flex;
+  justify-content: center;
+  width: 50%;
+  font-size: 2rem;
 }

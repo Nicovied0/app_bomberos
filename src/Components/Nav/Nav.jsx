@@ -29,9 +29,10 @@ const Nav = () => {
             href="https://www.facebook.com/bomberosvoluntarios.stacatalinaholmberg"
             target="_blank"
             rel="noreferrer"
+            className="iconoNav"
           >
-            <li>
-              <i class="fa fa-facebook" aria-hidden="true"></i>
+            <li   className="iconoNav">
+              <i   className="iconoNav" class="fa fa-facebook" aria-hidden="true"></i>
             </li>
           </a>
           <a
@@ -40,7 +41,7 @@ const Nav = () => {
             rel="noreferrer"
           >
             <li>
-              <i class="fa fa-instagram" aria-hidden="true"></i>
+              <i className="iconoNav" class="fa fa-instagram" aria-hidden="true"></i>
             </li>
           </a>
         </div>
