@@ -1,8 +1,9 @@
 .home {
   width: 100%;
   height: 100vh;
-  background-image: url('./../../Assets/CARTEL3.jpg');
-  background-repeat: no-repeat;
+  background: center / contain no-repeat url('./../../Assets/CARTEL3.jpg');
+  /* background-image: url('./../../Assets/CARTEL3.jpg'); */
+  /* background-repeat: no-repeat; */
   background-size: cover;
 }
 
@@ -10,4 +11,7 @@
   width: 100%;
   max-width: 100%;
   height: auto;
+}
+.home2{
+  
 }

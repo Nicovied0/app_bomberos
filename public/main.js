@@ -9,6 +9,6 @@ window.addEventListener("scroll", function () {
     console.log("aca");
     nav.setAttribute("style", "background: black");
   } else {
-    nav.setAttribute("style", "background: none");
+    nav.setAttribute("style", " background-color: rgba(128, 128, 128, 0.476);");
   }
 });
