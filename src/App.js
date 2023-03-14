@@ -5,6 +5,7 @@ import Historia from "./Components/Historia/Historia";
 import Home from "./Components/Home/Home";
 import Nav from "./Components/Nav/Nav";
 import Noticias from "./Components/Noticias/Noticias";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/noticias">
           <Noticias />
         </Route>
+        <Footer/>
       </div>
     </BrowserRouter>
   );

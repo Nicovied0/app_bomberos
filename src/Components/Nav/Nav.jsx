@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <div className={styles.Div_Contonador} id="Nav">
       <ul className={styles.ul}>
-        <a href="/">
+        <a href="/" className={styles.links}>
           <li className={styles.li}>
             <img alt="Logo_Nav" className={styles.Img_logo} src={logo}></img>
           </li>
