@@ -17,7 +17,7 @@ function App() {
         <Historia />
         <Contacto />
         {/* <Route exact path={"/contacto"} component={Contacto} /> */}
-        <Route exact path="/noticias">
+        <Route exact path="/Noticias">
           <Noticias />
         </Route>
         <Footer/>

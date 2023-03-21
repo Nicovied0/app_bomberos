@@ -12,10 +12,10 @@ const Nav = () => {
             <img alt="Logo_Nav" className={styles.Img_logo} src={logo}></img>
           </li>
         </a>
-        <a href="#Home">
+        <a href="/Home">
           <li className={styles.li}>Inicio</li>
         </a>
-        <a href="#Noticias">
+        <a href="/Noticias">
           <li className={styles.li}>Noticias</li>
         </a>
         <a href="#Historias">

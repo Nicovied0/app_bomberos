@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./Historia.module.css";
-
+import Contador from "../Contador/Contador";
 const Historia = () => {
   return (
     <div className={styles.div_contenedor} id="Historias">
@@ -20,8 +20,8 @@ const Historia = () => {
         integrantes. Sus integrantes, eran vecinos de Rosario que, deseosos de
         servir a lacomunidad, no dudaron en arriesgar sus vidas.
       </p>
-      <div className="odometer">
-        0000
+      <div>
+        <Contador />
       </div>
     </div>
   );
