@@ -12,7 +12,7 @@ export default function App() {
   // useEffect with empty dependency array runs once when component is mounted
   useEffect(() => {
     initCountUp();
-  }, []);
+  });
 
   // dynamically import and initialize countUp, sets value of `countUpAnim`
   // you don't have to import this way, but this works best for next.js

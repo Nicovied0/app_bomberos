@@ -5,13 +5,13 @@ import logo from "../../Assets/Logo.svg";
 
 const Footer = () => {
   return (
-    <div>
+    <div className={styles.div}>
       <div className={styles.div2}>
         <a
           href="https://www.facebook.com/bomberosvoluntarios.stacatalinaholmberg"
           target="_blank"
           rel="noreferrer"
-          className="iconoNav"
+          id="iconoNav2"
         >
           <i className="iconoNav" class="fa fa-facebook" aria-hidden="true"></i>
         </a>
@@ -19,6 +19,7 @@ const Footer = () => {
           href="https://www.instagram.com/bomberosvoluntariosstacatalina/?hl=es-la"
           target="_blank"
           rel="noreferrer"
+          id="iconoNav2"
         >
           <i
             className="iconoNav"
