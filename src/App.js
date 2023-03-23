@@ -12,15 +12,16 @@ function App() {
     <BrowserRouter>
       <div className="App" id="scrolling">
         <Nav />
-        <Home />
-
-        <Historia />
-        <Contacto />
+        <Route exact path="/">
+          <Home />
+          <Historia />
+          <Contacto />
+        </Route>
         {/* <Route exact path={"/contacto"} component={Contacto} /> */}
         <Route exact path="/Noticias">
           <Noticias />
         </Route>
-        <Footer/>
+        <Footer />
       </div>
     </BrowserRouter>
   );
