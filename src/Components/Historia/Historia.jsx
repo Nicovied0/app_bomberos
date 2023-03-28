@@ -5,6 +5,7 @@ const Historia = () => {
   return (
     <div className={styles.div_contenedor} id="Historias">
       <h2>Nuestra historia</h2>
+      <hr></hr>
       <p>
         Hasta el año 1880 en Rosario, los incendios que la asolaron habían sido
         contrarrestados con la decisión y el heroísmo del vecindario, pero a

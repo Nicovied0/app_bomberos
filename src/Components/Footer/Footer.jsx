@@ -12,7 +12,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
           id="iconoNav2"
-        >
+          >
           <i className="iconoNav" class="fa fa-facebook" aria-hidden="true"></i>
         </a>
         <a
@@ -20,13 +20,14 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
           id="iconoNav2"
-        >
+          >
           <i
             className="iconoNav"
             class="fa fa-instagram"
             aria-hidden="true"
-          ></i>
+            ></i>
         </a>
+            <hr></hr>
       </div>
       <div>
         <img alt="Logo_Nav" className={styles.Img_logo} src={logo}></img>

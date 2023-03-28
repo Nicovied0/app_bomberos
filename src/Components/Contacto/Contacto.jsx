@@ -5,6 +5,9 @@ const Contacto = () => {
   return (
     <div id="Contacto">
       <h2 className={styles.titulo}>Planilla de Contacto</h2>
+      <div className={styles.divTitle}>
+        <hr></hr>
+      </div>
       <div className={styles.div}>
         <div className={styles.div2}>
           <form className={styles.form}>
@@ -25,7 +28,7 @@ const Contacto = () => {
                 type="text"
               ></input>
             </div>
-            <textarea placeholder="Mensaje" rows="10" cols="50"></textarea>
+            <textarea placeholder="Mensaje" rows="10" cols="50" className={styles.textarea}></textarea>
             {/* <input type="text">Enviar</input> */}
             <button type="submit" className={styles.buttonSend}>
               Enviar

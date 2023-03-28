@@ -4,11 +4,36 @@
   width: 100%;
   color: white;
   font-family: 'Roboto', sans-serif;
- 
+
 }
+
 html {
   scroll-behavior: smooth;
 }
-a{
+
+a {
   color: white;
+}
+
+hr {
+  border: solid #283436;
+  border-width: 3px 0 0;
+  width: 100px;
+  height: 0;
+  clear: both;
+  text-align: left;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  display: flex;
+  width: 88%;
+  flex-direction: column;
+  align-items: center;
+}
+
+hr:hover {
+  transform: scale(1.05);
+  border: solid #fdc501;
 }
