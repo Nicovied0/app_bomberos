@@ -8,17 +8,33 @@ const Contacto = () => {
       <div className={styles.div}>
         <div className={styles.div2}>
           <form className={styles.form}>
-            <input placeholder="Nombre" type="text"></input>
-            <input placeholder="Email" type="email"></input>
-            <input placeholder="Asunto" type="text"></input>
+            <div className={styles.inputs}>
+              <input
+                placeholder="Nombre"
+                className={styles.input}
+                type="text"
+              ></input>
+              <input
+                placeholder="Email"
+                className={styles.input}
+                type="email"
+              ></input>
+              <input
+                placeholder="Asunto"
+                className={styles.input}
+                type="text"
+              ></input>
+            </div>
             <textarea placeholder="Mensaje" rows="10" cols="50"></textarea>
             {/* <input type="text">Enviar</input> */}
-            <button type="submit">Enviar</button>
+            <button type="submit" className={styles.buttonSend}>
+              Enviar
+            </button>
           </form>
         </div>
 
         <div className={styles.div2}>
-          <h3>
+          <h3 className={styles.h3}>
             Puedes utilizar esta planilla de contacto para todas tus consultas
             y/o sugerencias y te responderemos a la brevedad a la dirección de
             correo electrónico que nos proporciones. Si tienes algún
