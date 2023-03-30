@@ -4,7 +4,7 @@ import Contador from "../Contador/Contador";
 const Historia = () => {
   return (
     <div className={styles.div_contenedor} id="Historias">
-      <h2>Nuestra historia</h2>
+      <h2 className={styles.title}>Nuestra historia</h2>
       <hr></hr>
       <p>
         Hasta el año 1880 en Rosario, los incendios que la asolaron habían sido

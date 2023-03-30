@@ -9,7 +9,7 @@ const Nav = () => {
   console.log(params.pathname, "soy params2");
   if (params.pathname === "/Noticias") {
     return (
-      <div className={styles.Div_Contonador} id="Nav">
+      <div className={styles.Div_Contonador} style={{background: "black"}} id="Nav">
         <ul className={styles.ul}>
           <a href="/" className={styles.links}>
             <li className={styles.li}>
