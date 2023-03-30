@@ -37,3 +37,29 @@ hr:hover {
   transform: scale(1.05);
   border: solid #fdc501;
 }
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  background: var(--color-background-dark);
+  hyphens: auto;
+  user-select: none
+}
+
+body::-webkit-scrollbar {
+  background-color: #1d1f20;
+  width: 8px;
+  /* Tamaño del scroll en vertical */
+  height: 8px;
+  /* Tamaño del scroll en horizontal */
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #e64e04;;
+  border-radius: 20px;
+
+}
