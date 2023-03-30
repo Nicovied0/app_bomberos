@@ -4,7 +4,10 @@ import style from "./Noticias.module.css";
 const Noticias = () => {
   return (
     <div id="Noticias">
-      <h2 className={style.titulo} id="NoticiasInicio">Noticias</h2>
+      <h2 className={style.titulo} id="NoticiasInicio">
+        Noticias
+      </h2>
+      <hr></hr>
       <div className={style.Noticias}>
         <div className={style.Noticias2}>
           <iframe
