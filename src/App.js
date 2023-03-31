@@ -7,6 +7,7 @@ import Nav from "./Components/Nav/Nav";
 import Noticias from "./Components/Noticias/Noticias";
 import Footer from "./Components/Footer/Footer";
 import ButtonUp from "./Components/ButtonUp/ButtonUp";
+import Galeria from "./Components/Galeria/Galeria";
 
 function App() {
   return (
@@ -16,13 +17,14 @@ function App() {
         <Route exact path="/">
           <Home />
           <Historia />
+          <Galeria />
           <Contacto />
         </Route>
         {/* <Route exact path={"/contacto"} component={Contacto} /> */}
         <Route exact path="/Noticias">
           <Noticias />
         </Route>
-        <ButtonUp/>
+        <ButtonUp />
         <Footer />
       </div>
     </BrowserRouter>

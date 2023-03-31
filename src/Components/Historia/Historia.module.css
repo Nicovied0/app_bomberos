@@ -5,3 +5,19 @@
   width: 50%;
   font-size: 2rem;
 }
+
+.divTexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divp {
+  width: 80%;
+}
+.divp p {
+  display: flex;
+}
+.div_contenedor{
+  display: flex;
+}
