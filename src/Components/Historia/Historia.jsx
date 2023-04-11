@@ -29,7 +29,7 @@ const Historia = () => {
           </div>
           <div className={styles.divparalelo}>
             <div className={styles.divp2}>
-              <h3>NOSOTROS</h3>
+              <h3 className={styles.h3amarillo}>NOSOTROS</h3>
               <p>
                 Desde el año 1978, contamos con un Cuartel Central sito en calle
                 Rioja Nº 2860. Desde marzo de 1995 hasta finales del 2003,
@@ -44,7 +44,7 @@ const Historia = () => {
               </p>
             </div>
             <div className={styles.divp2}>
-              <h3>ACTUALIDAD</h3>
+              <h3 className={styles.h3amarillo}>ACTUALIDAD</h3>
               <p>
                 Desde el año 1978, contamos con un Cuartel Central sito en calle
                 Rioja Nº 2860. Desde marzo de 1995 hasta finales del 2003,
