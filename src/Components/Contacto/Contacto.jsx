@@ -28,7 +28,12 @@ const Contacto = () => {
                 type="text"
               ></input>
             </div>
-            <textarea placeholder="Mensaje" rows="10" cols="50" className={styles.textarea}></textarea>
+            <textarea
+              placeholder="Mensaje"
+              rows="10"
+              cols="50"
+              className={styles.textarea}
+            ></textarea>
             {/* <input type="text">Enviar</input> */}
             <button type="submit" className={styles.buttonSend}>
               Enviar
@@ -45,7 +50,7 @@ const Contacto = () => {
             aspirantes27@bomberosrosario.com.ar
           </h3>
           <div>
-            <h2 className={styles.textoimport}>Dirección</h2>
+            <h2 className={styles.textoimport}>Ubicacion</h2>
             <iframe
               title="maps"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1669.177065318863!2d-64.43668876449388!3d-33.20481107015381!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d1f92bc9be3ddd%3A0x4dd7fe0f482d7610!2sBomberos%20Voluntarios%20Santa%20Catalina!5e0!3m2!1ses-419!2sar!4v1677133095538!5m2!1ses-419!2sar"
@@ -57,8 +62,8 @@ const Contacto = () => {
             ></iframe>
           </div>
           <div>
-            <h2 className={styles.textoimport}>Números telefónicos</h2>
-            <h3>Tel: (0341) 430 8888</h3>
+            <h2 className={styles.textoimport}>Número telefónico</h2>
+            <h3>Tel: (0358) 4990600</h3>
           </div>
         </div>
       </div>

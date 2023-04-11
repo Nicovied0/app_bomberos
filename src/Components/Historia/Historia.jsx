@@ -60,9 +60,9 @@ const Historia = () => {
             </div>
           </div>
         </div>
-        <div>
+        {/* <div>
           <Contador />
-        </div>
+        </div> */}
       </div>
     </div>
   );
