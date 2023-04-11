@@ -26,13 +26,25 @@
   height: 100vh;
   object-fit: cover;
   z-index: 1;
-    /* max-width: 100%; */
+  /* max-width: 100%; */
 }
-.h2{
+
+.h2 {
   justify-content: center;
   z-index: 5;
   position: absolute;
   top: 50%;
   left: 50%;
   background-color: rgba(138, 138, 138, 0.608);
+}
+
+.h2principal {
+  justify-content: center;
+  z-index: 5;
+  position: absolute;
+
+  background-color: rgba(138, 138, 138, 0.608);
+  top: 41%;
+  left: 0%;
+  font-size: 3.8rem;
 }

@@ -1,6 +1,6 @@
 import styles from "./Slides.module.css";
 import img from "../../Assets/CARTEL.png";
-import img1 from "../../Assets/CARTEL2.jpg";
+import img1 from "../../Assets/Principal.jpg";
 import img2 from "../../Assets/CARTEL3.jpg";
 
 import React from "react";
@@ -24,15 +24,17 @@ const Slides = () => {
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src={img} alt="First slide" className={styles.img}/>
-            <h2 className={styles.h2}>foto 1</h2>
-          </div>
-          <div class="carousel-item">
-            <img src={img1} alt="Second slide" className={styles.img}/>
+            <img src={img} alt="First slide" className={styles.img} />
             <h2 className={styles.h2}>foto 2</h2>
           </div>
           <div class="carousel-item">
-            <img src={img2} alt="Third slide" className={styles.img}/>
+            <img src={img1} alt="Second slide" className={styles.img} />
+            <h2 className={styles.h2principal}>
+              Bomberos Voluntarios Santa Catalina
+            </h2>
+          </div>
+          <div class="carousel-item">
+            <img src={img2} alt="Third slide" className={styles.img} />
             <h2 className={styles.h2}>foto 3</h2>
           </div>
         </div>
