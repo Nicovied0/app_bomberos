@@ -13,15 +13,29 @@
 }
 
 .divp {
-  width: 80%;
+  padding: 1rem 3rem;
 }
+
+
+.divp2 {
+  width: 80%;
+  padding: 0rem 1rem;
+}
+
+.divparalelo {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
 .divp p {
   display: flex;
-    hyphens: auto;
-    word-wrap: break-word;
-    word-break: break-word;
-
+  hyphens: auto;
+  word-wrap: break-word;
+  word-break: break-word;
+  text-align: justify
 }
+
 /* .div_contenedor{
   display: flex;
 } */

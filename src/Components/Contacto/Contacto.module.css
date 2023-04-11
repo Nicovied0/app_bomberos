@@ -96,9 +96,11 @@
 .textoimport {
   color: #fdc501;
   font-size: 1.2rem;
+  
 }
 
 .h3a {
-  font-size: 1rem;
+  font-size: 1.1rem;
   padding: 0 4rem;
+  text-align: justify
 }
