@@ -17,7 +17,11 @@
 }
 .divp p {
   display: flex;
+    hyphens: auto;
+    word-wrap: break-word;
+    word-break: break-word;
+
 }
-.div_contenedor{
+/* .div_contenedor{
   display: flex;
-}
+} */

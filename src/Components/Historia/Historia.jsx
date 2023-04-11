@@ -23,26 +23,7 @@ const Historia = () => {
             el número de plazas de 50 integrantes. Sus integrantes, eran vecinos
             de Rosario que, deseosos de servir a lacomunidad, no dudaron en
             arriesgar sus vidas.
-          </p>
-        </div>
-        <div className={styles.divp}>
-          <p>
-            Con el recuerdo lejano de la Compañía Primera de Bomberos
-            Voluntarios del Rosario, un grupo de rosarinos con "alma de
-            Bomberos", fundan, el 2 de junio de 1978 la Asociación Bomberos
-            Voluntarios de Rosario, siendo el Sr. Eric Lowenstein su primer
-            Presidente y 3 de diciembre de 1978 se crea el Cuerpo Activo siendo
-            el Sr. Luis E. Vázquez su 1er. Jefe del Cuerpo Activo. En la
-            actualidad, solo contamos con el Cuartel Central, pero es nuestro
-            anhelo disponer, en un futuro cercano,de un destacamento en cada uno
-            de los 6 distritos de la ciudad. Recordamos que en 1997 el Honorable
-            Concejo Municipal de Rosario, agradeció la actividad que los
-            Bomberos Voluntario de Rosario realizan en beneficio de nuestra
-            comunidad, como asimismo obtuvimos además del IADE el Primer Premio
-            a la Excelencia Institucional.
-          </p>
-        </div>
-        <div >
+          </p>  
           <div>
             <h3>NOSOTROS</h3>
             <p>

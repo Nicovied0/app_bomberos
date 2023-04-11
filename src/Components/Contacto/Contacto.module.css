@@ -65,7 +65,8 @@
   color: #FFFFFF;
 
 }
-.textarea{
+
+.textarea {
   width: 94%;
 }
 
@@ -90,4 +91,14 @@
   line-height: 24px;
   border-radius: 3px;
 
+}
+
+.textoimport {
+  color: #fdc501;
+  font-size: 1.2rem;
+}
+
+.h3a {
+  font-size: 1rem;
+  padding: 0 4rem;
 }
